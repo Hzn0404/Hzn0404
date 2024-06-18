@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #dfc8b3;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #1220e0;
+}
+
+.education-section {
+    padding: 80px 20px;
+}
+
+.education-content {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center; /* 图片和文字居中显示 */
+}
+
+.menu li img {
+    display: flex; /* 去除图片默认的行内间距 */
+    margin: 2 auto; /* 图片水平居中 */
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li a:hover {
+    color: #1220e0;
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

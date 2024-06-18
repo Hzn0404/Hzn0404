@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人資訊</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #9f8fd4;
+            color: rgb(250, 250, 250);
+            padding: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            /* 中央對齊 */
+            background-color: #dfc8b3;
+            /* 背景色 */
+            padding: 10px;
+            /* 內邊距 */
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #000;
+            /* 修改為黑色，避免看不見 */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #1220e0;
+            /* 滑鼠懸停時的顏色 */
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* 調整標題之間的上下間距 */
+        }
+
+        .horizontal-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .horizontal-images img {
+            margin: 0 10px;
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .text-below {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .about-section,
+        .portfolio-section,
+        .contact-section,
+        .education-section {
+            padding: 80px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 10 auto;
+        }
+
+        .menu,
+        .style {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .style {
+            display: flex;
+            justify-content: center;
+        }
+
+        .style li {
+            margin: 0 10px;
+        }
+
+        .style li img {
+            margin: 0 auto;
+        }
+
+        .main-content {
+            margin: 0 auto;
+            /* 将左右边距设置为 auto，使其水平居中 */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#education">學經歷</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#hobbies">興趣專長</a>
+        <a href="#contact">聯繫方式</a>
+    </nav>
+    <header>
+        <h1>HZN WEBSITE</h1>
+    </header>
+    <div class="main-content">
+        <section id="home" class="container">
+            <div style="display: flex; justify-content: center;">
+                <div class="container" style="margin-right: auto; margin-left: auto;">
+                    <div style="display: flex; justify-content: center;">
+                        <div style="margin-right: 1ch;">
+                            <img src="img/one.jpg" width="200" height="350" alt="">
+                        </div>
+                        <div style="margin-left: 1cm;">
+                            <img src="img/cat.jpg" width="200" height="350" alt="">
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div class="text-below">無人做你的光芒，就自己照亮遠方</div>
+                        <div class="text-below">If no one is your light, just illuminate the distance by yourself</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about" class="about-section main-content">
+        <h2>關於我</h2>
+        <div style="display: flex; align-items: center;">
+            <div style="flex: 1;">
+                <img src="img/cat two.jpg" width="250" height="400" alt="照片">
+            </div>
+            <div style="flex: 1;">
+                <h2>中文姓名</h2>
+                <p>徐子晴</p>
+                <h2>英文姓名</h2>
+                <p>Hsu Tzu Ching</p>
+            </div>
+        </div>
+        <section class="portfolio-section main-content">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <h2>證照</h2>
+                    <div class="horizontal-images">
+                        <div>
+                            <img src="img/certiflcate.jpg" width="300" height="200" alt="">
+                            <div class="text-below">陶瓷手拉坯</div>
+                        </div>
+                        <div>
+                            <img src="img/certiflcate back.jpg" width="300" height="200" alt="">
+                            <div class="text-below">陶瓷手拉坏</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>工作經驗</h2>
+                    <img src="img/WMD.jpg" width="300" height="250" alt="">
+                    <p><a
+                            href="https://www.google.com.tw/maps/place/%E9%BA%A5%E5%91%B3%E7%99%BB%E9%87%91%E9%91%BD%E5%BA%97/@24.985246,121.428018,15z/data=!4m6!3m5!1s0x34681d07acc3504d:0x9a5ddc39d43e2ec!8m2!3d24.985246!4d121.428018!16s%2Fg%2F11khd_fv_7?entry=ttu">麥味登</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="portfolio-section text-center">
+        <section id="education" class="education-section text-center">
+            <h2>學經歷</h2>
+            <ul class="menu">
+                <img src="img/school1.jpg" width="300" height="250">
+                <li><a href="https://www.sips.ntpc.edu.tw/">溪洲國小</a></li>
+                <img src="img/school2.jpg" width="300" height="250">
+                <li><a href="https://www.ckjhs.ntpc.edu.tw/">溪崑國中</a></li>
+                <img src="img/school3.jpg" width="300" height="250">
+                <li><a href="https://www.ykvs.ntpc.edu.tw/">鶯歌工商</a></li>
+                <img src="img/school4.jpg" width="300" height="250">
+                <li><a href="https://www.aeust.edu.tw/">亞東科技大學</a></li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="portfolio" class="portfolio-section text-center">
+        <h2>作品集</h2>
+        <ul class="menu">
+            <li><a href="http://127.0.0.1:5500/20240326/index.html">2024/03/26 KOMA-NATSU Web</a></li>
+            <li><a href="http://127.0.0.1:5500/20240402/ch2.html">2024/04/02 KOMA-NATSU Web</a></li>
+            <li><a href="http://127.0.0.1:5500/20240402/html_attr.html">2024/04/02 利用HTML屬性改變樣式</a></li>
+            <li><a href="http://127.0.0.1:5500/20240402/index.html">2024/04/02 設定樣式的四種方式</a></li>
+            <li><a href="http://127.0.0.1:5500/20240408/ch2.html">2024/04/08 KOMA-NATSU Web</a></li>
+            <li><a href="http://127.0.0.1:5500/20240416/index.html">2024/04/16 112111110 徐子晴 的個人履歷</a></li>
+            <li><a href="http://127.0.0.1:5500/20240430/fontawesome.html">2024/04/30 Font Awesome</a></li>
+            <li><a href="http://127.0.0.1:5500/20240430/googlefont.html">2024/04/30 Google Font</a></li>
+            <li><a href="http://127.0.0.1:5500/20240430/googleicon.html">2024/04/30 Google Icons</a></li>
+            <li><a href="http://127.0.0.1:5500/20240507/float.html">2024/05/07 Float</a></li>
+            <li><a href="http://127.0.0.1:5500/20240514/align-items.html">2024/05/14 Align Items</a></li>
+            <li><a href="http://127.0.0.1:5500/20240514/flex_direction.html">2024/05/14 Flex Box</a></li>
+            <li><a href="http://127.0.0.1:5500/20240514/flex_wrap.html">2024/05/14 Flex Wrap</a></li>
+            <li><a href="http://127.0.0.1:5500/20240514/mcdonalds.html">2024/05/14 Document</a></li>
+            <li><a href="http://127.0.0.1:5500/20240521/layout-div.html">2024/05/21 用DIV排版</a></li>
+            <li><a href="http://127.0.0.1:5500/20240521/layout-tag.html">024/05/14 用DIV排版</a></li>
+            <li><a href="http://127.0.0.1:5500/20240604/website.html">2024/06/04 個人資訊</a></li>
+        </ul>
+    </section>
+
+    <section id="hobbies" class="portfolio-section text-center">
+        <h2>興趣專長</h2>
+        <ul class="style">
+            <li>
+                <div>
+                    <img src="img/music.jpg" width="200" height="350" alt="聽音樂">
+                    <div class="text-below">聽音樂</div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="img/landscape.jpg" width="200" height="300" alt="出去玩">
+                    <div class="text-below">出去玩</div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="img/picture.jpg" width="200" height="300" alt="拍照">
+                    <div class="text-below">拍照</div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-section text-center main-content">
+        <h2>聯繫方式</h2>
+        <h2>Come and meet me</h2>
+        <p>電話: 0910146097</p>
+        <p><a href="https://www.facebook.com/?locale=zh_TW">FB: 徐子晴</a></p>
+        <p><a href="https://www.instagram.com/">Instagram: hzn_0404</a></p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox">Email: 112111110@mail.aeust.edu.tw</a></p>
+    </section>
+
+    <link rel="stylesheet" href="css/website.css">
+</body>
+
+</html>

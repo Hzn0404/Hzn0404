@@ -1,0 +1,120 @@
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.container img {
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #d10000;
+}
+
+
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255)
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.clear {
+    clear: both
+}
+
+body {
+    background-color: rgb(217, 190, 240);
+}
+
+a {
+    color: rgb(144, 27, 222)
+}
+
+#container {
+    width: 980px;
+    height: 980px;
+    background-color: #df6c6c;
+    padding: 40px 80px;
+    border: 1px solid #80a1c7a8;
+}
+
+.name {
+    float: left;
+    /* 將名字設定為左浮動 */
+    width: 60%;
+    /* 設定名字元素寬度為70% */
+}
+
+.menu li {
+    list-style-type: none;
+    border: 1px solid #b098cc;
+    display: inline-block;
+    width: 180px;
+}
+
+.manu a {
+    display: block;
+    padding: 10px;
+    background: #7d57a0a8;
+    border-radius: 8px;
+    color: #407abda8;
+}
+
+.menu a:hover {
+    background: #6c7eaf
+}
+
+body,
+h1 {
+    margin: 0px;
+}
+
+.style ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10 auto;
+}
+
+.portfolio-section .menu li {
+    margin-bottom: 3cm;
+    /* 也可以使用 padding-bottom 屬性 */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* 水平分布 */
+    align-items: center;
+    /* 垂直居中 */
+   padding: 0;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    /* 将左右边距设置为 auto，使其水平居中 */
+}

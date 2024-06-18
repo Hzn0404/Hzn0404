@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+     <link rel="stylesheet" href="css/style.css">
+     <style>
+     body,ul{
+        margin: 0px;
+    }
+    #container{
+        width: 980px;
+        margin: 0px auto;
+    }
+    header{
+        height: 200px;
+        background-color: rgb(179, 128, 189);
+    }
+    nav{
+        height: 100px;
+        background-color: rgb(148, 161, 219);
+        position: relative;
+    }
+    main{
+        min-height: 1000px;
+        background-color: rgb(231, 170, 208);
+    }
+    aside{
+        width: 20%;
+        background-color: rgb(223, 128, 128);
+        min-height: 1000px;
+        float: left;
+    }
+    section{
+        width: 80%;
+        background-color: rgb(223, 247, 169);
+        min-height: 1000px;
+        float: left;
+    }
+    footer{
+        height: 100px;
+        background-color: rgb(152, 143, 202);
+        clear: both;
+    }
+   
+    
+    .menu{
+        list-style-type: none;
+        width: 600px;
+        position: absolute;
+        right: -50px;
+    }
+    .menu-item a{
+        text-decoration: none;
+        display: inline-block;
+        width: 100px;
+        line-height: 100px;
+    }
+    .menu-item{
+        display: inline-block;
+        width: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .menu-item a:hover{
+        color: red;
+    }
+     </style>
+</head>
+
+
+<body>
+<div id="container">
+    <header></header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">超連結1</a></li>
+            <li class="menu-item"><a href="#">超連結2</a></li>
+            <li class="menu-item"><a href="#">超連結3</a></li>
+            <li class="menu-item"><a href="#">超連結4</a></li>
+            <li class="menu-item"><a href="#">超連結5</a></li>
+        </ul>
+    </nav>
+    <main></main>
+    <footer></footer>
+</div>
+
+</body>
+
+</html>

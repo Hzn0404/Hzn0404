@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人資訊</title>
+    <link rel="stylesheet" href="css/website.css">
+     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #9f8fd4;
+            color: rgb(250, 250, 250);
+            padding: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #dfc8b3;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #1220e0;
+        }
+
+        .horizontal-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .horizontal-images img {
+            margin: 0 10px;
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .text-below {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .main-content {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">首頁</a>
+        <a href="about.html">關於我</a>
+        <a href="education.html">學經歷</a>
+        <a href="portfolio.html">作品集</a>
+        <a href="hobbies.html">興趣專長</a>
+        <a href="contact.html">聯繫方式</a>
+    </nav>
+    <header>
+        <h1>HZN WEBSITE</h1>
+    </header>
+    <div class="main-content">
+        <section id="home" class="container">
+            <div style="display: flex; justify-content: center;">
+                <div class="container" style="margin-right: auto; margin-left: auto;">
+                    <div style="display: flex; justify-content: center;">
+                        <div style="margin-right: 1ch;">
+                            <img src="img/one.jpg" width="200" height="350" alt="">
+                        </div>
+                        <div style="margin-left: 1cm;">
+                            <img src="img/cat.jpg" width="200" height="350" alt="">
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div class="text-below">無人做你的光芒，就自己照亮遠方</div>
+                        <div class="text-below">If no one is your light, just illuminate the distance by yourself</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
