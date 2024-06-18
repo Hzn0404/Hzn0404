@@ -1,0 +1,66 @@
+span {
+    font-size: 2em; 
+    color: rgb(132, 211, 214); 
+  }
+  h1 {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #aec3dba8;
+    background-color: rgb(132, 151, 212);
+    color:rgb(22, 25, 221)
+  }
+  h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #6e36a3a8;
+    border-left: 10px solid #407abda8;
+    color: #5074d8;
+  }
+  .clear {
+    clear:both
+  }
+  body {
+    background-color: rgb(178, 160, 196);
+  }
+a {
+    color:rgb(241, 11, 172)
+}
+#container {
+    width: 980px;
+    height: 980px;
+    background-color: #df6c6c;
+    padding: 40px 80px;
+    border: 1px solid #80a1c7a8;
+}
+
+.photo {
+    width: 300px; /* 設定相片寬度為300px */
+    height: 300px; /* 設定相片高度為300px */
+    border-radius: 50%; /* 將相片設定為圓形 */
+    border: 5px solid #fff; /* 加上白色實心邊框 */
+}
+
+.name {
+    float: right; /* 將名字設定為左浮動 */
+    width: 60%; /* 設定名字元素寬度為70% */
+}
+.imgL {
+    float: right;
+    margin-right: 20px;
+}
+.menu li {
+    list-style-type: none;
+    border: 1px solid #2941cc;
+    display: inline-block;
+    width: 180px;
+}
+.manu a {
+    display: block;
+    padding: 10px;
+    background: #723da3a8;
+    border-radius: 8px;
+    color:#407abda8;
+}
+.menu a:hover {
+    background:#6c7eaf
+}

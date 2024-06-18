@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/*設定版面區塊且置中*/
+#contents{
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(193, 213, 236);
+    padding: 40px 80px;
+    border: 1px solid #030100;
+    background-color: rgba(100,125,200,0.8);
+}
+
+/*視窗背景色設定*/
+body{
+    background-image: url(../img/)
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+/*連結顏色設定*/
+a{
+    color:rgb(216, 66, 66)
+}
+
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1{
+    background-color: rgb(111, 82, 214);
+    color:#fff;
+    width:20%;
+    padding:20px;
+    margin:40px auto;
+    text-align:center;
+    font-size: 2.5em;
+    line-height: 1;
+    border:#fff solid 5px; 
+    border-radius: 50px;
+    box-shadow: #000 10px 10px 10px;
+    text-shadow: 5px 5px 5px #000
+
+
+}
+
+
+
+/*次標題設定*/
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #ac52d6;
+    border-left: 10px solid #bb56b2;
+    color: #515cbd;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+
+/*小標題設定*/
+.h-sub{
+    padding: 10px;
+    background-color: #9b8dd1;
+    color: #6b3a32;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #6a3997 inset;
+}
+
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+
+/*寵物相片設定*/
+.photo{
+    width: 450px;
+    height: 350px;
+}
+
+
